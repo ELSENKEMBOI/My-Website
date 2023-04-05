@@ -1,0 +1,226 @@
+*{
+    margin:0; 
+}
+
+/*HOME PAGE*/
+
+ul li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+   margin: 20px;
+   border: 1px white solid;
+}
+
+.index{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(index-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.index-text{
+    margin-left:210px;
+    margin-top: 110px;
+}
+
+.index-text h1{
+    color:rgb(248, 149, 0);
+    font-size: 100px;
+}
+
+.index-text h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 330px;
+    font-style: italic;
+}
+
+/*ABOUT US PAGE*/
+
+.About-us{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(about-bg.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.heading{
+    color:aqua;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.About-us p{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    width: 700px;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+
+/*CONTACT US PAGE*/
+
+.contact-us{
+    background-image: url(contact-us-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.contact-us h1{
+    color:rgb(96, 210, 30);
+    margin-left: 330px;
+    margin-top: 50px;
+   
+}
+
+.submition-form{
+   margin-left: 110px;
+   margin-top: 3%;
+    position: absolute;
+    width:70%;
+    height: 90%;
+}
+#name{
+margin-left: 5%;
+width: 60%;
+height: 8%;
+position: absolute;
+}
+#email{
+position: absolute;
+margin-top:11%;
+margin-left: 5%;
+ width: 60%;
+ height: 8%;
+}
+#message{
+width: 60%;
+height: 39%;
+margin-top:22%;
+margin-left: 5%;
+position: absolute;
+}
+#submit{
+position: absolute;
+margin-top:49%;
+margin-left: 20%;
+height: 9%;
+width: 30%;
+background-color: blueviolet;
+border: none;
+color: white;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*RECIPE PAGE*/
+
+.recipe-page{
+    background-color: rgb(117, 71, 71);
+}
+
+.recipe-page h1{
+    margin-left: 36% ; 
+    margin-top: 4%;
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+}
+.ugali{
+    width:44%;
+    margin-left: 20px;
+}
+
+.ugali h2{
+    color:gold;
+    margin-left: 30%;
+    margin-top: 7%;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 3%;
+}
+.ugali h5{
+    font-size: 19px;
+}
+.ingredients li{
+    color: white;
+    font-size: 19px;
+    padding-top: 10px;
+}
+.ugali h3{
+    font-size: 20px;
+    margin-top: 2%;
+}
+.ugali p{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+
+.vertical-line{
+    position: absolute;
+    height: 80%;
+    margin-top: -40%;
+    margin-left: 49%;
+    border:2px solid gold;
+}
+
+
+
+.chicken{
+    width:44%;
+    margin-left: 56%;
+   margin-top: -44%;
+}
+
+.chicken h2{
+    color:gold;
+    margin-left: 30%;
+    margin-top: 7%;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 3%;
+}
+.chicken h5{
+    font-size: 19px;
+}
+.chicken li{
+    color: white;
+    font-size: 19px;
+    padding-top: 10px;
+}
+.chicken h3{
+    font-size: 20px;
+    margin-top: 2%;
+}
+.chicken p{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
